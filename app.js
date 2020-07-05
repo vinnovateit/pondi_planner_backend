@@ -2,7 +2,6 @@ var express = require("express");
 var app = express();
 var passport = require("passport");
 var LocalStrategy = require("passport-local");
-var nodemailer = require('nodemailer');
 
 
 //FLASH MESSAGES
